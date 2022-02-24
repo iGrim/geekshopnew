@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta charset="utf-8">
+    <title>Geek Shop</title>
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+</head>
+    
+<body>
+    <div class="header">
+        <div class="header-nav">
+            <div class="nav_1">
+                <a href="about.html">
+                    <span style="color:white; font-size: 55px; margin-top: 55px; margin-left: 15px; margin-right: 15px;">GeekShop </span>
+                </a>
+                <form action="main.html" target="_self">
+                    <button id="main_button">main</button>
+                </form>
+                <form action="login.html" target="_self">
+                    <button id="main_button">log in</button>
+                </form>
+            </div>
+            <div class="nav_2">
+                <nav class="menu_2">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <a href="favorite.html" id="liked">
+                            <img src="assets/img/fav.png" width="50" height="50">
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="korzina.html" id="korz">
+                            <img src="assets/img/korz.png" width="50" height="50">
+                            </a>
+                        </li>  
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+    <div class="about">
+        <h2 style="margin-bottom: 15px;"><hr><strong>About us</strong><hr></h2>
+        <p>In our site you can buy all sorts of things from numerous movie universes, anime and series. <br> We have everything from an ordinary pen to clothes. <br> You can make a purchase online, or visit our store in the city of Nur-Sultan.</p>
+    </div>
+    
+    <div class="contacts">
+        <h2 style="margin-bottom: 15px;"><hr><strong>Contacts</strong><hr></h2>
+        <table>
+        <tr>
+            <td colspan="2">Nurbay</td>
+            <td colspan="2">Miras</td>
+            <td colspan="2">Yelaman</td>
+        </tr>
+        <tr>
+            <td colspan="3">Email:</td>
+            <td>example</td>
+            <td>@</td>
+            <td>g.com</td>
+        </tr>
+        <tr>
+            <td colspan="4">NurSultan</td>
+            <td rowspan="3">EXPO</td>
+            <td>C1 &lt;3</td>
+        </tr>
+        </table>
+    </div>
+    
+    <div class="feedback">
+        <h2 style="margin-bottom: 15px;"><hr><strong>Leave feedback</strong><hr></h2>
+        <form class="form">
+            <input type="text" class="name formEntry" placeholder="Name" />
+            <textarea class="message formEntry" placeholder="Message"></textarea>
+            <input type="checkbox" class="termsConditions" value="Term">
+            <label style="color: grey" for="terms"> I Accept the <span style="color: #0e3721">Terms of Use</span> &amp; <span style="color: #0e3721">Privacy Policy</span>.</label><br>
+            <button class="submit formEntry" onclick="thanks()">Submit</button>
+        </form>
+    </div>
+    
+    <div class="fun">
+        <h2 style="margin-bottom: 15px;"><hr><strong>Latest ongoing:</strong><hr></h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cvTipU9gN5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+</body>
+</html>
+

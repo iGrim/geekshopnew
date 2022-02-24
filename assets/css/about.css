@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: snow;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    background-size: 100%;
+}
+
+.logo {
+    color: black;
+}
+
+.header {
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+
+.page {
+    position: relative;
+    margin: 0 auto;
+    min-width: 980px;
+    max-width: 1600px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 24px;
+}
+
+.menu {
+    display: inline-block;
+    min-height: 1px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+}
+
+.menu-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu-list > a {
+    display: block;
+    padding: 17px 6px 16px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.menu-item {
+    float: left;
+    margin: 5;
+    padding: 10px;
+
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.2s;
+    background-color: transparent;
+}
+
+#main_button {
+    height: 6em;
+    padding: 25px;
+    font: normal 25px;
+    font-family: 'Nunito', sans-serif;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.nav_1 {
+    display: flex;
+    height: 3.5em;
+}
+
+.nav_2 {
+    height: 3.6em;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    display: inline-block;
+}
+
+.about {
+    margin-top: 30px;
+    text-align: center;
+    border: 5px;
+}
+
+
+hr {
+    margin: auto;
+    display: block;
+    background-color: black;
+    height: 2px;
+    width: 25%;
+}
+
+.contacts {
+    margin-top: 30px;
+    text-align: center;
+    border: 5px;
+}
+
+table {
+    border-spacing: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+td {
+    padding: 0.5rem;
+}
+
+    td:nth-child(1) { background: hsl(173, 50%, 50%); }
+    td:nth-child(2) { background: hsl(183, 60%, 50%); }
+    td:nth-child(3) { background: hsl(187, 70%, 50%); }
+    td:nth-child(4) { background: hsl(193, 80%, 50%); }
+    td:nth-c     hild(5) { background: hsl(195, 90%, 50%); }
+    td:nth-child(6) { background: hsl(197, 99%, 50%); }
+
+.feedback {
+    margin-top: 40px;
+    text-align: center;
+    border: 5px;
+}
+
+.fun {
+    margin-top: 40px;
+    text-align: center;
+    border: 5px;
+}
+
+.termsConditions{
+    margin: auto;
+}
+
+.name {
+    background-color: #ebebeb;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+.name:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 20px;
+    width: 330px;
+    transition: ease 0.5s;
+}
+
+.message {
+    background-color: #ebebeb;
+    overflow: hidden;
+    height: 10rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.message:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 12em;
+    width: 330px;
+    transition: ease 0.5s;
+}
+
+.formEntry {
+    display: block;
+    margin: 30px auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s ease 0s;
+}
+
+.submit {
+    width: 200px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}
+
+.submit:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    transform: translateY(-3px);
+    width: 100px;
+    border-top: 5px solid #0e3750;
+    border-radius: 0%;
+}
