@@ -200,9 +200,26 @@
 	</script>
 	</div>
 	
-<div id="titan" class="container-fluid">
-	<img class="" id="buttonn1" src="assets/img/titan.png" alt="Girl in a jacket" width="1.5%" height="1.5%">
-</div>
+
+<img class="" id="buttonn1" src="assets/img/titan.png" alt="Girl in a jacket" width="1.5%" height="1.5%">
+
+<script>
+function myMove() {
+  let id = null;
+  const elem = document.getElementById("buttonn1");   
+  let pos = 0;
+  clearInterval(id);
+  id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos--; 
+      elem.style.left = pos + "px"; 
+    }
+  }
+}
+</script>
 	
 <!-- Footer -->
 <footer class="bg-dark text-center text-white">
